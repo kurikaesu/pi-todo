@@ -1,0 +1,33 @@
+{
+	"name": "pi-todo-panel",
+	"version": "1.0.0",
+	"description": "A right-hand to-do panel for Pi: ordered steps the model must work through and check off in order.",
+	"keywords": ["pi-package", "pi", "todo", "plan", "extension"],
+	"license": "MIT",
+	"scripts": {
+		"test": "node test/run.mjs"
+	},
+	"pi": {
+		"extensions": ["./todo-panel.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*",
+		"typebox": "*"
+	},
+	"peerDependenciesMeta": {
+		"@earendil-works/pi-ai": {
+			"optional": true
+		},
+		"@earendil-works/pi-coding-agent": {
+			"optional": true
+		},
+		"@earendil-works/pi-tui": {
+			"optional": true
+		},
+		"typebox": {
+			"optional": true
+		}
+	}
+}

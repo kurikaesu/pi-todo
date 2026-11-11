@@ -1,0 +1,12 @@
+# Dependencies are host-provided by Pi; never commit a physical copy (see docs: Packages).
+node_modules/
+package-lock.json
+
+# Per-machine Pi state, project trust, and local package declarations.
+.pi/
+
+# OS and editor noise.
+.DS_Store
+*.log
+*.tsbuildinfo
+dist/
