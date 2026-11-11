@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "A right-hand to-do panel for Pi: ordered steps the model must work through and check off in order.",
 	"keywords": ["pi-package", "pi", "todo", "plan", "extension"],
-	"license": "MIT",
+	"license": "GPL-3.0-only",
 	"scripts": {
 		"test": "node test/run.mjs"
 	},

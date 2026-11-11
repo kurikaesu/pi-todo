@@ -192,3 +192,7 @@ the `pi` binary on `PATH`, or `PI_ROOT` pointing at a `pi-coding-agent` package 
 * Terminal size is captured from the overlay's `visible(cols, rows)` hook, which runs before every
   render — that is what lets the panel size its own scroll window instead of being sliced.
 * Everything else is plain state in a closure plus session entries; no files are written.
+
+## License
+
+GPL-3.0-only, see [LICENSE](LICENSE).
